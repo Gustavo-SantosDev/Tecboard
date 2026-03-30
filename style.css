@@ -129,9 +129,16 @@ h2{
     align-items: center;
 }
 
-button{
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
     height: 66px;
     width: 340px;
+
     
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -147,8 +154,7 @@ button{
     color: var(--cor-offWhite-textoDark);
 }
 
-button:hover{
-    cursor: pointer;
+a:hover{
     background-color: var(--cor-roxo-hover);
 }
 
